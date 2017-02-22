@@ -1,181 +1,57 @@
+---
+layout: default
+---
 
-<html><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<div id="content" class="home">
 
-<link rel="alternate" type="application/rss+xml" 
-href="http://www.jmlr.org/jmlr.xml" title="JMLR RSS">
-<link rel="stylesheet" type="text/css" href="basic_files/style.html">
-<style>. {font-family:verdana,helvetica,sans-serif}
-a {text-decoration:none;color:#3030a0}
-</style>
-<style type="text/css">
-<!-- 
-#fixed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 8em;
-    height: 100%;
-}
-body > #fixed {
-    position: fixed;
-}
-#content {
-    margin-top: 1em;
-    margin-left: 10em;
-    margin-right: 0.5em;
-}
-img.jmlr {
-    width: 7em;
-}
-img.rss {
-    width: 2em;
-}
--->
-</style>
-<script language="JavaScript"> 
-<!-- function GoAddress(user,machine) {
-document.location = 'mailto:' + user + '@' + machine; } 
-// -->
-</script>
+  <h1>Proceedings of Machine Learning Research</h1>
+  <h2>Volume {{ site.volume }}: {{ site.conference }} {{ site.start | date: "%B %-d" }} to {{ site.end | date: "%B %-d, %Y" }}, {{ site.address }}</h2>
 
-<title>JMLR W&amp;CP: Volume 26: On-line Trading of Exploration and
-Exploitation 2</title></head><body>
-<div id="fixed">
-<br>
-<a align="right" href="http://www.jmlr.org/" target="_top"><img 
-class="jmlr" src="basic_files/jmlr.jpg" align="right" border="0"></a> 
-<p><br><br>
-</p><p align="right"> <a href="http://www.jmlr.org/"> Home Page </a> 
+  
+  <p><strong>Editors:
+      {% assign lastone = site.editor | last %}
+      {% for person in site.editor %}
+      {% include listperson.html %}
+      {% endfor %}
+  </strong></p>
 
-</p><p align="right"> <a href="http://jmlr.csail.mit.edu/papers"> Papers
- </a> 
+  <div id="sectionnav">
+    {% if site.sections %}
+    <p>Contents:</p>
+    <ul>
+      {% for section in site.sections %}
+      <li><a href="#{{ section.name }}">{{ section.title }}</a></li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+    <label for="search-authors">Filter Authors:</label>
+    <input type="search" name="filter-authors" id="search-authors" value />
+    <label for="search-titles">Filter Titles:</label>
+    <input type="search" name="filter-titles" id="search-titles" value />
+  </div>
+  {% if site.sections %}
+  {% for section in site.sections %}
+  <h3 id="{{ section.name }}">{{ section.title }}</h3>
+  {% assign sorted = (site.posts | sort: 'firstpage') %}
+  {% for post in sorted %}
+    {% if section.name == post.section %}
+    {% include listpaper.html %}
+    {% endif %}
+    {% endfor %}
+  </dl>
+  {% endfor %}
+  {% endif %}
+  <dl>
+  {% assign sorted = (site.posts | sort: 'firstpage') %}
+  {% for post in sorted %}
+  {% unless post.section %} 
+  {% include listpaper.html %}
+  {% endunless %}
+  {% endfor %}
 
-</p><p align="right"> <a 
-href="http://jmlr.csail.mit.edu/author-info.html"> Submissions </a> 
-
-</p><p align="right"> <a href="http://jmlr.csail.mit.edu/news.html"> 
-News </a> 
-
-</p><p align="right"> <a href="http://jmlr.csail.mit.edu/scope.html"> 
-Scope </a>
-
-</p><p align="right"> <a 
-href="http://jmlr.csail.mit.edu/editorial-board.html"> Editorial Board </a>
- 
-
-</p><p align="right"> <a 
-href="http://jmlr.csail.mit.edu/announcements.html"> Announcements </a>
-
-</p><p align="right"> <a href="http://jmlr.csail.mit.edu/proceedings"> 
-Proceedings </a>
-
-</p><p align="right"> <a href="http://jmlr.csail.mit.edu/mloss">Open 
-Source Software</a>
-
-</p><p align="right"> <a 
-href="http://jmlr.csail.mit.edu/search-jmlr.html"> Search </a>
-
-</p><p align="right"> <a href="http://jmlr.csail.mit.edu/manudb"> Login </a></p>
-
-<br><br>
-<p align="right"> <a href="http://jmlr.csail.mit.edu/jmlr.xml"> 
-<img src="basic_files/RSS.gif" class="rss" alt="RSS Feed">
-</a>
-
-</p></div>
-
-<div id="content">
-<table>
-<tbody><tr><td><h1>JMLR Workshop and Conference Proceedings<br>Volume
-  26: On-line Trading of Exploration and Exploitation 2</h1></td><td>
-<img src="basic_files/SAIS_logo.jpg"></td></tr>
-</tbody>
-</table>
-<h2>Proceedings of the Workshop on On-line Trading of Exploration
-and Exploitation 2
-<br>July 2, 2011, Bellevue, Washington, USA</h2>
-<p><b>Editors: Dorota Glowacka, Louis Dorard and John Shawe-Taylor</b>
-<br>
-
-<table cellpadding="4" cellspacing="0">
-<tbody>
-
-<tr><td><dl>
-<dt> Preface
-</dt><dd><b><i> Dorota Glowacka, Louis Dorard and John Shawe-Taylor </i></b><i></i> <br>
-<a target="_blank" href="../v26/glowacka12a/glowacka12a.pdf">[pdf]</a>
-</dd></dl><p></p></td></tr>
-
-<tr><td><dl>
-<dt> Online Clustering with Experts
-</dt><dd><b><i> Anna Choromanska, Claire Monteleoni  </i></b><i></i> ; 26:1-18, 2012. <br>
-<a href="../v26/choromanska12a.html">[abs]</a>
-<a target="_blank" href="../v26/choromanska12a/choromanska12a.pdf">[pdf]</a>
-</dd></dl><p></p></td></tr>
-
-
-<tr><td><dl>
-<dt> An Unbiased Offline Evaluation of Contextual Bandit Algorithms with Generalized Linear Models
-</dt><dd><b><i> Lihong Li, Wei Chu, John Langford, Taesup Moon, Xuanhui Wang     </i></b><i></i> ; 26:19-36, 2012. <br>
-<a href="../v26/li12a.html">[abs]</a>
-<a target="_blank" href="../v26/li12a/li12a.pdf">[pdf]</a>
-</dd></dl><p></p></td></tr>
-
-
-
-
-
-<tr><td><dl>
-<dt> Exploration and Exploitation with Insufficient Resources
-</dt><dd><b><i> Chris Lovell, Gareth Jones, Klaus-Peter Zauner, Steve
-  R. Gunn </i></b><i></i> ; 26:37-61, 2012. <br>
-<a href="../v26/lovell12a.html">[abs]</a>
-<a target="_blank" href="../v26/lovell12a/lovell12a.pdf">[pdf]</a>
-</dd></dl><p></p></td></tr>
-
-
-<tr><td><dl>
-<dt> ICML Exploration & Exploitation Challenge: Keep it simple!
-</dt><dd><b><i> Olivier Nicol, J&eacute;r&eacute;mie Mary, Philippe Preux </i></b><i></i> ; 26:62-85, 2012. <br>
-<a href="../v26/nicol12a.html">[abs]</a>
-<a target="_blank" href="../v26/nicol12a/nicol12a.pdf">[pdf]</a>
-</dd></dl><p></p></td></tr>
-
-
-
-<tr><td><dl>
-<dt> Stumping along a Summary for Exploration & Exploitation Challenge 2011
-</dt><dd><b><i> Christophe Salperwyck, Tanguy Urvoy </i></b><i></i> ; 26:86-97, 2012. <br>
-<a href="../v26/salperwyck12a.html">[abs]</a>
-<a target="_blank" href="../v26/salperwyck12a/salperwyck12a.pdf">[pdf]</a>
-</dd></dl><p></p></td></tr>
-
-
-
-<tr><td><dl>
-<dt> PAC-Bayes-Bernstein Inequality for Martingales and its Application to Multiarmed Bandits
-</dt><dd><b><i>Yevgeny Seldin, Nicol&oacute; Cesa-Bianchi, Peter Auer,
-  Fran&ccedil;ois Laviolette, John Shawe-Taylor </i></b><i></i> ; 26:98-111, 2012. <br>
-<a href="../v26/seldin12a.html">[abs]</a>
-<a target="_blank" href="../v26/seldin12a/seldin12a.pdf">[pdf]</a>
-</dd></dl><p></p></td></tr>
-
-
-
-
-
-
-
-
-</table>
-</tbody>
-  <hr>
-
-  <p></p><center>Page last modified on Mon Apr 02 17:47 GMT 2010.</center>
-
-<p> 
-
-<table width="100%"> <tbody><tr>
-<td align="left"><font size="-1"><i><a 
-href="javascript:GoAddress('webmaster','jmlr.org');">webmaster<img src="basic_files/atr.gif" border="0">jmlr.org</a></i></font></td> <td align="right"><font size="-1">Copyright@<a target="_top" href="http://www.jmlr.org/">JMLR</a> 2000.  All rights reserved.</font></td> </tr> </tbody></table></p></td></tr></tbody></table></div></body></html>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  
+</div>
+<!-- Search Widget -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script src="../js/search.js"></script>

@@ -15,15 +15,18 @@ abstract: 'We propose an online clustering algorithm that manages the exploratio
   best clustering algorithm on real and simulated data sets.'
 pdf: "./choromanska12a/choromanska12a.pdf"
 layout: inproceedings
-key: choromanska12a
+id: choromanska12a
 month: 0
 firstpage: 1
 lastpage: 18
+page: 1-18
 origpdf: http://jmlr.org/proceedings/papers/v26/choromanska12a/choromanska12a.pdf
 sections: 
-authors:
+author:
 - given: Anna
   family: Choromanska
 - given: Claire
   family: Monteleoni
+date: '2012-05-02 00:00:01'
+publisher: PMLR
 ---

@@ -14,15 +14,18 @@ abstract: 'The  \emph{Pascal Exploration & Exploitation challenge 2011} seeks to
   simple averaging.'
 pdf: "./salperwyck12a/salperwyck12a.pdf"
 layout: inproceedings
-key: salperwyck12a
+id: salperwyck12a
 month: 0
 firstpage: 86
 lastpage: 97
+page: 86-97
 origpdf: http://jmlr.org/proceedings/papers/v26/salperwyck12a/salperwyck12a.pdf
 sections: 
-authors:
+author:
 - given: Christophe
   family: Salperwyck
 - given: Tanguy
   family: Urvoy
+date: '2012-05-02 00:01:26'
+publisher: PMLR
 ---

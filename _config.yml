@@ -19,11 +19,11 @@ sections:
 - name: default
   title: Accepted Papers
 layout: proceedings
-key: GlowackaExploitation2011
+id: GlowackaExploitation2011
 abstract: 
 origpdf: 
 pdf: "./GlowackaExploitation2011/GlowackaExploitation2011.pdf"
-editors:
+editor:
 - given: Dorota
   family: Glowacka
 - given: Louis
