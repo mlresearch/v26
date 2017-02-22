@@ -1,0 +1,42 @@
+# Site settings
+# Auto generated from v26.bib
+---
+booktitle: Proceedings of the Workshop on On-line Trading of Exploration and Exploitation
+  2
+publisher: JMLR Workshop and Conference Proceedings
+logoright: SAIS_logo.jpg
+volume: 26
+year: '2011'
+month: 0
+address: Bellevue, Washington, USA
+shortname: On-line Trading of Exploration and Exploitation 2
+sections:
+- name: preface
+  title: Preface
+- name: default
+  title: Accepted Papers
+layout: proceedings
+key: GlowackaExploitation2011
+abstract: 
+origpdf: 
+pdf: "./GlowackaExploitation2011/GlowackaExploitation2011.pdf"
+editors:
+- given: Dorota
+  family: Glowacka
+- given: Louis
+  family: Dorard
+- given: John
+  family: Shawe-Taylor
+title: Proceedings of the Workshop on On-line Trading of Exploration and Exploitation
+  2
+conference: Proceedings of the Workshop on On-line Trading of Exploration and Exploitation
+  2
+email: ''
+description: Proceedings of the Workshop on On-line Trading of Exploration and Exploitation
+  2, Bellevue, Washington, USA
+url: http://proceedings.mlr.press
+baseurl: "/v26"
+twitter_username: mlresearch
+github_username: mlresearch
+markdown: kramdown
+permalink: "/:title.html"

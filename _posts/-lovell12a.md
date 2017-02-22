@@ -1,0 +1,41 @@
+---
+title: Exploration and Exploitation with Insufficient Resources
+abstract: In physical experimentation, the resources available to discover new knowledge
+  are typically extremely small in comparison to the size and dimensionality of the
+  parameter spaces that can be searched. Additionally, due to the nature of physical
+  experimentation, experimental errors will occur, particularly in biochemical experimentation
+  where the reactants may undetectably denature, or reactant contamination could occur
+  or equipment failure. These errors mean that not all experimental measurements and
+  observations will be accurate or representative of the system being investigated.
+  As the validity of observations is not guaranteed, resources must be split between
+  exploration to discover new knowledge and exploitation to test the validity of the
+  new knowledge. Currently we are investigating the automation of discovery in physical
+  experimentation, with the aim of producing a fully autonomous closed-loop robotic
+  machine capable of autonomous experimentation. This machine will build and evaluate
+  hypotheses, determine experiments to perform and then perform them on an automated
+  lab-on-chip experimentation platform for biochemical response characterisation.
+  In the present work we examine how the trade-off between exploration and exploitation
+  can occur in a situation where the number of experiments that can be performed is
+  extremely small and where the observations returned are sometimes erroneous or unrepresentative
+  of the behaviour being examined. To manage this trade-off we consider the use of
+  a Bayesian notion of surprise, which is used to perform exploration experiments
+  whilst observations are unsurprising from the predictions that can be made and exploits
+  when observations are surprising as they do not match the predicted response.
+pdf: "./lovell12a/lovell12a.pdf"
+layout: inproceedings
+key: lovell12a
+month: 0
+firstpage: 37
+lastpage: 61
+origpdf: http://jmlr.org/proceedings/papers/v26/lovell12a/lovell12a.pdf
+sections: 
+authors:
+- given: Chris
+  family: Lovell
+- given: Gareth
+  family: Jones
+- given: Klaus-Peter
+  family: Zauner
+- given: Steve R.
+  family: Gunn
+---

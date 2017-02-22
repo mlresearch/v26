@@ -1,0 +1,39 @@
+---
+title: An Unbiased Offline Evaluation of Contextual Bandit Algorithms with Generalized
+  Linear Models
+abstract: Contextual bandit algorithms have become popular tools in online   recommendation
+  and advertising systems. \emph{Offline} evaluation of the effectiveness of new algorithms
+  in these applications is critical for protecting online user experiences but very
+  challenging due to their ``partial-label'' nature.  A common practice is to create
+  a simulator which simulates the online environment for the problem at hand and then
+  run an algorithm against this simulator. However, creating the simulator itself
+  is often difficult and modeling bias is usually unavoidably introduced. The purpose
+  of this paper is two-fold.  First, we review a recently proposed \emph{offline}
+  evaluation technique.  Different from simulator-based approaches, the method is
+  completely data-driven, is easy to adapt to different applications, and more importantly,
+  provides provably unbiased evaluations.  We argue for the wide use of this technique
+  as standard practice when comparing bandit algorithms in real-life problems. Second,
+  as an application of this technique, we compare and validate a number of new algorithms
+  based on \emph{generalized} linear models.  Experiments using real Yahoo! data suggest
+  substantial improvement over algorithms with linear models when the rewards are
+  binary.
+pdf: "./li12a/li12a.pdf"
+layout: inproceedings
+key: li12a
+month: 0
+firstpage: 19
+lastpage: 36
+origpdf: http://jmlr.org/proceedings/papers/v26/li12a/li12a.pdf
+sections: 
+authors:
+- given: Lihong
+  family: Li
+- given: Wei
+  family: Chu
+- given: John
+  family: Langford
+- given: Taesup
+  family: Moon
+- given: Xuanhui
+  family: Wang
+---
