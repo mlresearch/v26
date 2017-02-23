@@ -27,6 +27,7 @@ author:
 - given: Tanguy
   family: Urvoy
 date: 2012-05-02
+address: Bellevue, Washington, USA
 publisher: PMLR
 container-title: Proceedings of the Workshop on On-line Trading of Exploration and
   Exploitation 2
