@@ -42,9 +42,8 @@ github:
   edit: true
   repository: v26
 conference:
-  name: Proceedings of the Workshop on On-line Trading of Exploration and Exploitation
-    2
-  url: 
+  name: Workshop on On-line Trading of Exploration and Exploitation
+  url: http://explo.cs.ucl.ac.uk/workshop
   location: Bellevue, Washington, USA
   dates:
   - 2011-07-02
