@@ -13,20 +13,20 @@ abstract: 'We propose an online clustering algorithm that manages the exploratio
   of this online clustering approximation guarantee is novel, and extends  an evaluation
   framework proposed by Dasgupta as an analog to regret.  Our algorithm tracks the
   best clustering algorithm on real and simulated data sets.'
-pdf: http://proceedings.pmlr.press/choromanska12a/choromanska12a.pdf
+pdf: http://jmlr.org/proceedings/papers/v26/choromanska12a/choromanska12a.pdf
 layout: inproceedings
 id: choromanska12a
 month: 0
 firstpage: 1
 lastpage: 18
 page: 1-18
-origpdf: http://jmlr.org/proceedings/papers/v26/choromanska12a/choromanska12a.pdf
 sections: 
 author:
 - given: Anna
   family: Choromanska
 - given: Claire
   family: Monteleoni
+reponame: v26
 date: 2012-05-02
 address: Bellevue, Washington, USA
 publisher: PMLR

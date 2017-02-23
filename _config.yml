@@ -20,8 +20,6 @@ sections:
 layout: proceedings
 id: GlowackaExploitation2011
 abstract: ''
-origpdf: 
-pdf: http://proceedings.pmlr.press/GlowackaExploitation2011/GlowackaExploitation2011.pdf
 editor:
 - given: Dorota
   family: Glowacka

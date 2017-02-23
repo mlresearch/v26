@@ -12,20 +12,20 @@ abstract: 'The  \emphPascal Exploration & Exploitation challenge 2011 seeks to e
   decision stumps to deep multivariate ones. For the last layer, we explored several
   combination strategies: online bagging, exponential weighting, linear ranker, and
   simple averaging.'
-pdf: http://proceedings.pmlr.press/salperwyck12a/salperwyck12a.pdf
+pdf: http://jmlr.org/proceedings/papers/v26/salperwyck12a/salperwyck12a.pdf
 layout: inproceedings
 id: salperwyck12a
 month: 0
 firstpage: 86
 lastpage: 97
 page: 86-97
-origpdf: http://jmlr.org/proceedings/papers/v26/salperwyck12a/salperwyck12a.pdf
 sections: 
 author:
 - given: Christophe
   family: Salperwyck
 - given: Tanguy
   family: Urvoy
+reponame: v26
 date: 2012-05-02
 address: Bellevue, Washington, USA
 publisher: PMLR
