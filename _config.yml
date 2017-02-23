@@ -11,7 +11,6 @@ start: 2011-07-02
 end: 2011-07-02
 published: 2012-05-02
 month: 0
-address: Bellevue, Washington, USA
 shortname: On-line Trading of Exploration and Exploitation 2
 sections:
 - name: preface
@@ -20,9 +19,9 @@ sections:
   title: Accepted Papers
 layout: proceedings
 id: GlowackaExploitation2011
-abstract: 
+abstract: ''
 origpdf: 
-pdf: "./GlowackaExploitation2011/GlowackaExploitation2011.pdf"
+pdf: http://proceedings.pmlr.press/GlowackaExploitation2011/GlowackaExploitation2011.pdf
 editor:
 - given: Dorota
   family: Glowacka
@@ -31,8 +30,6 @@ editor:
 - given: John
   family: Shawe-Taylor
 title: Proceedings of the Workshop on On-line Trading of Exploration and Exploitation
-  2
-conference: Proceedings of the Workshop on On-line Trading of Exploration and Exploitation
   2
 email: ''
 description: Proceedings of the Workshop on On-line Trading of Exploration and Exploitation
@@ -43,8 +40,15 @@ twitter_username: mlresearch
 github_username: mlresearch
 markdown: kramdown
 permalink: "/:title.html"
-gitub:
+github:
   edit: true
+  repository: v26
+conference:
+  name: 
+  url: 
+  location: Bellevue, Washington, USA
+  dates:
+  - 2011-07-02
 analytics:
   google:
     tracking_id: UA-92432422-1
