@@ -14,6 +14,7 @@ abstract: 'The  \emphPascal Exploration & Exploitation challenge 2011 seeks to e
   simple averaging.'
 pdf: http://proceedings.mlr.press/v26/salperwyck12a/salperwyck12a.pdf
 layout: inproceedings
+series: Proceedings of Machine Learning Research
 id: salperwyck12a
 month: 0
 firstpage: 86

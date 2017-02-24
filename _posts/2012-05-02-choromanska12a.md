@@ -15,6 +15,7 @@ abstract: 'We propose an online clustering algorithm that manages the exploratio
   best clustering algorithm on real and simulated data sets.'
 pdf: http://proceedings.mlr.press/v26/choromanska12a/choromanska12a.pdf
 layout: inproceedings
+series: Proceedings of Machine Learning Research
 id: choromanska12a
 month: 0
 firstpage: 1
