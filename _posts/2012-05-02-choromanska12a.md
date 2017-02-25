@@ -18,6 +18,7 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: choromanska12a
 month: 0
+tex_title: Online Clustering with Experts
 firstpage: 1
 lastpage: 18
 page: 1-18

@@ -19,6 +19,8 @@ layout: proceedings
 series: Proceedings of Machine Learning Research
 id: GlowackaExploitation2011
 abstract: ''
+tex_title: 
+title: Proceedings of Machine Learning Research
 editor:
 - given: Dorota
   family: Glowacka
@@ -26,7 +28,6 @@ editor:
   family: Dorard
 - given: John
   family: Shawe-Taylor
-title: Proceedings of Machine Learning Research
 description: |
   Proceedings of the Workshop on On-line Trading of Exploration and Exploitation 2
     Held in Bellevue, Washington, USA on 02 July 2011

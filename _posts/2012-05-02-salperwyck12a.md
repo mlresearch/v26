@@ -17,6 +17,7 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: salperwyck12a
 month: 0
+tex_title: Stumping along a Summary for Exploration & Exploitation Challenge 2011
 firstpage: 86
 lastpage: 97
 page: 86-97
