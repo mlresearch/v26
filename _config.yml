@@ -26,11 +26,20 @@ editor:
   family: Dorard
 - given: John
   family: Shawe-Taylor
-title: Proceedings of the Workshop on On-line Trading of Exploration and Exploitation
-  2
-email: ''
-description: Proceedings of the Workshop on On-line Trading of Exploration and Exploitation
-  2, Bellevue, Washington, USA
+title: Proceedings of Machine Learning Research
+description: |
+  Proceedings of the Workshop on On-line Trading of Exploration and Exploitation 2
+    Held in Bellevue, Washington, USA on 02 July 2011
+
+  Published as Volume 26 by the Proceedings of Machine Learning Research on 02 May 2012.
+
+  Volume Edited by:
+    Dorota Glowacka
+    Louis Dorard
+    John Shawe-Taylor
+
+  Series Editors:
+    Neil D. Lawrence
 url: http://proceedings.mlr.press
 baseurl: "/v26"
 twitter_username: mlresearch
@@ -40,6 +49,7 @@ permalink: "/:title.html"
 github:
   edit: true
   repository: v26
+email: ''
 conference:
   name: Proceedings of the Workshop on On-line Trading of Exploration and Exploitation
     2
