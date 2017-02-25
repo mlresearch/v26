@@ -41,6 +41,7 @@ description: |
 
   Series Editors:
     Neil D. Lawrence
+date_str: 02 Jul
 url: http://proceedings.mlr.press
 baseurl: "/v26"
 twitter_username: mlresearch
@@ -50,6 +51,7 @@ permalink: "/:title.html"
 github:
   edit: true
   repository: v26
+bibtex_copy: true
 email: ''
 conference:
   name: Proceedings of the Workshop on On-line Trading of Exploration and Exploitation
