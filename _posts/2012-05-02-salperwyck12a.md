@@ -21,7 +21,8 @@ tex_title: Stumping along a Summary for Exploration & Exploitation Challenge 201
 firstpage: 86
 lastpage: 97
 page: 86-97
-sections: 
+order: 86
+cycles: false
 author:
 - given: Christophe
   family: Salperwyck

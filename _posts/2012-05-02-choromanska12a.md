@@ -22,7 +22,8 @@ tex_title: Online Clustering with Experts
 firstpage: 1
 lastpage: 18
 page: 1-18
-sections: 
+order: 1
+cycles: false
 author:
 - given: Anna
   family: Choromanska
