@@ -65,6 +65,7 @@ conference:
   location: Bellevue, Washington, USA
   dates:
   - 2011-07-02
+  number: 2
 analytics:
   google:
     tracking_id: UA-92432422-1
